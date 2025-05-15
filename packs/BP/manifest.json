@@ -1,0 +1,36 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Bliss SMP",
+      "description": "",
+      "uuid": "fc050cf8-3126-11f0-888a-335c71437ef5",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 21, 70]
+    },
+    "modules": [
+      {
+        "description": "Script resources",
+        "language": "javascript",
+        "type": "script",
+        "uuid": "f613929c-3126-11f0-bac2-370480a742f7",
+        "version": [1, 0, 0],
+        "entry": "scripts/main.js"
+      },
+      {
+        "type": "data",
+        "uuid": "ef33a728-3126-11f0-ae38-03e1adf3c8a7",
+        "version": [1, 0, 0]
+      }
+    ],
+    "dependencies": [
+      {
+        "uuid": "de8b169a-3126-11f0-b1dc-ff61738ed020",
+        "version": [1, 0, 0]
+      },
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.19.0"
+      }
+    ]
+  }
+  

@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Bliss SMP",
+      "description": "",
+      "uuid": "de8b169a-3126-11f0-b1dc-ff61738ed020",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 21, 70]
+    },
+    "modules": [
+      {
+        "type": "resources",
+        "uuid": "0bbbdf50-3127-11f0-aaf2-0b688c41918c",
+        "version": [1, 0, 0]
+      }
+    ],
+    "dependencies": [
+      {
+        "uuid": "fc050cf8-3126-11f0-888a-335c71437ef5",
+        "version": [1, 0, 0]
+      }
+    ]
+  }
+  
