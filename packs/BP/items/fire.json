@@ -20,6 +20,10 @@
 			"minecraft:durability": {
 				"max_durability": 72
 			},
+			"minecraft:cooldown": {
+				"category": "cast",
+				"duration": 0.8
+			},
       "minecraft:should_despawn": false
     }
   }
