@@ -22,6 +22,7 @@ const gemsRegistry = [
                     damagingEntity: player,
                     cause: EntityDamageCause.entityAttack
                 });
+                player.sendMessage(`${player.nameTag} apply ${bonusDamage} bonus damage to ${hitEntity.typeId}`);
             }
         },
         executeInterval: function (player) {
@@ -53,7 +54,6 @@ system.runInterval(() => {
         if (!offhandItem)
             return;
         gemsRegistry.forEach(gem => {
-            player.onScreenDisplay.setActionBar('test');
             if (gem.item === offhandItem.typeId) {
                 gem.executeInterval(player);
                 if (gem.addEffect) {

@@ -2,8 +2,29 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
-    "strenght": {
-      "textures": "textures/items/strenght"
+    "strength": {
+      "textures": "textures/items/strength"
+    },
+    "astra": {
+      "textures": "textures/items/astra"
+    },
+    "fire": {
+      "textures": "textures/items/fire"
+    },
+    "flux": {
+      "textures": "textures/items/flux"
+    },
+    "life": {
+      "textures": "textures/items/life"
+    },
+    "puff": {
+      "textures": "textures/items/puff"
+    },
+    "speed": {
+      "textures": "textures/items/speed"
+    },
+    "wealth": {
+      "textures": "textures/items/wealth"
     }
   }
 }
